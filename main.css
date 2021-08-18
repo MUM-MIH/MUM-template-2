@@ -94,8 +94,8 @@ div.contentafterlink > div > div::before { /* Adds speech bubble tail to activit
   border-color: transparent transparent #deeefb transparent;
 }
 
-html body{
-	font-size: 90%;
+a[title="Set or change image"]{ /* hides the change image button on grid icons */
+	display: none;
 }
 
 #staffonly { /* hides all instructions for staff from view EXCEPT in the editor window */
