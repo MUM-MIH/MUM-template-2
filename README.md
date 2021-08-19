@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 ## 2021-08-19 ##
 
 ### Added ###
-- HTML element to embed gdoc in _Important Policies_ for consistency
+- Embed live gdoc in _Important Policies_ for consistency
 - Placeholder in _Important Policies_ to indicate possibility of adding more relevant policies.
 - Alert box in _Assessments_ about academic integrity
 - New section (Recycle Bin) for staff eyes only (based on request)
