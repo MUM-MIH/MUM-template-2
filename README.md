@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - HTML element to embed gdoc in _Important Policies_ for consistency
 - Paceholder in _Important Policies_ to indicate possibility of adding more relevant policies.
 - Alert box in _Assessments_ about academic integrity
+- New section: Recycle Bin for staff eyes only (based on request)
 
 ### Changed ###
 - _Unit Calendar_ to _Unit Schedule_
