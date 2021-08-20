@@ -4,6 +4,17 @@ This is the second version of the MUM Moodle template. Created 18/08/2021. The f
 # Changelog #
 All notable changes to this project will be documented in this file.
 
+## Unreleased ##
+- Custom Key Contacts information based on School/Faculty/Campus
+
+## 2021-08-21 ##
+### Added ###
+- Centralised _Key Contacts_ and _Important Policy_ via javascript (addfeatures.js)
+
+### Removed ###
+- Embed live gdoc
+
+
 ## 2021-08-19 ##
 
 ### Added ###
