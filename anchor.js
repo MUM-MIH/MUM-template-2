@@ -1,6 +1,7 @@
 
 // directs the function to work once the page has loaded.
-window.addEventListener('load',function(){ {document.querySelectorAll('.single-section h2, h3').forEach($heading => {
+window.addEventListener('load',function(){ 
+    document.querySelectorAll('.single-section h2, h3').forEach($heading => {
 
     //create id from heading text
   var id = $heading.getAttribute("id") || $heading.innerText.toLowerCase().replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '').replace(/ +/g, '-');
