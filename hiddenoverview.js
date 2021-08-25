@@ -1,3 +1,3 @@
 if (/section/.test(window.location.href)) {
-        document.documentElement.className += ' js';
+        document.getElementById('hiddenoverview').style.display = 'none';
       }
