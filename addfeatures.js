@@ -43,5 +43,18 @@ window.addEventListener('load',function(){
 	else{
 		console.log('not Assessment Section or section 0')
 	}
+	//add class to table row if contains the phrases "mid-semester break" or "swot vac" //
+  $("tr").each(function(){
+    var col_val = $(this).find("td:eq(2)").text();
+    if( $.trim(col_val.toLowerCase() ) === "swot vac" ){
+      $(this).addClass('specialweek');  //the selected class colors the row green//
+    } 
+	else if( $.trim(col_val.toLowerCase() ) === "mid-semester break" ){
+      $(this).addClass('specialweek');  //the selected class colors the row green//
+    }   
+	  else {
+      $(this).addClass('normweek');
+    }
+  });
 //Close window.onload function	
 	});
