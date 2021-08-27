@@ -295,6 +295,6 @@ font-weight: bold;
 }
 
 /*Hides and disables option in Settings that allows adding or removing sections */
-select#ID_numsections{
+select#id_numsections{
 	display:none
 }
