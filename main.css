@@ -348,8 +348,14 @@ table {
 	color: inherit; /* disables the automatic blue colour on links in the header */
 }
 
-#calemphasis {
+#calemphasis { /* styles mid-semester and swot vac cells - deprecated */
 	background-color: #007EA8; /* determines color of important dates row */
+	color: #ffffff;
+	font-weight: bold
+}
+
+.caldark .specialweek{ /* styles any row with "mid-semester break" or "Swot Vac" in the description - uses js */
+	background-color: #007EA8;
 	color: #ffffff;
 	font-weight: bold
 }
