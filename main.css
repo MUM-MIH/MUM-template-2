@@ -96,13 +96,24 @@ div.contentafterlink > div > div::before { /* Adds speech bubble tail to activit
   border-color: transparent transparent #deeefb transparent;
 }
 
-a[title="Set or change image"]{ /* hides the change image button on grid icons */
-	display: none;
-}
-
 #staffonly { /* hides all instructions for staff from view EXCEPT in the editor window */
 	display: none;
 }
+
+/* Styles to stop staff from changing things in template */
+
+a[title="Set or change image"]{ /* hides the change image button on grid icons */
+	display: none
+}
+
+section_action_menu {
+	display: none
+}
+
+li:not(#section-0) .content>.summary {
+	display:none
+}
+
 
 /* Anchor links on h2 and h3 headers */
 
