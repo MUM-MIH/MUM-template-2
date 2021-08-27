@@ -118,6 +118,16 @@ li:not(#section-0) .content>.summary {
 	display:none
 }
 
+.quickeditlink {
+	pointer-events: none;
+	cursor: default;
+}
+
+.quickediticon .visibleifjs {
+	display:none;
+}
+
+
 /* Anchor links on h2 and h3 headers */
 
 .anchor-heading:target {
