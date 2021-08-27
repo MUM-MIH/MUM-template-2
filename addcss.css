@@ -293,3 +293,8 @@ font-weight: bold;
 	border-radius: 15px;
 	margin: 0;
 }
+
+/*Hides and disables option in Settings that allows adding or removing sections */
+select#ID_numsections{
+	display:none
+}
