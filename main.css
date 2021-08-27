@@ -114,6 +114,9 @@ li:not(#section-0) .content>.summary {
 	display:none
 }
 
+.section-handle {
+	display:none
+}
 
 /* Anchor links on h2 and h3 headers */
 
