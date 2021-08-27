@@ -9,6 +9,11 @@ All notable changes to this project will be documented in this file.
 
 ## 2021-08-21 ##
 ### Added ###
+- CSS to prevent users from add/deleting sections, changing section names, rearranging sections, and editing menubar.
+
+
+## 2021-08-21 ##
+### Added ###
 - Centralised _Key Contacts_ and _Important Policy_ via javascript (addfeatures.js)
 
 ### Removed ###
