@@ -20,4 +20,4 @@ window.addEventListener('load',function(){
 
   //append anchor after heading text
   $heading.appendChild($anchor);
-});}
+                        });
