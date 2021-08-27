@@ -106,7 +106,7 @@ a[title="Set or change image"]{ /* hides the change image button on grid icons *
 	display: none
 }
 
-section_action_menu {
+.section_action_menu {
 	display: none
 }
 
