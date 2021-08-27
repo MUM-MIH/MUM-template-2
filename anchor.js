@@ -1,23 +1,20 @@
+window.onload = function() {document.querySelectorAll('.single-section h2, h3').forEach($heading => {
 
-// directs the function to work once the page has loaded.
-window.addEventListener('load',function(){ 
-    document.querySelectorAll('.single-section h2, h3').forEach($heading => {
+     //create id from heading text
+   var id = $heading.getAttribute("id") || $heading.innerText.toLowerCase().replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '').replace(/ +/g, '-');
 
-    //create id from heading text
-  var id = $heading.getAttribute("id") || $heading.innerText.toLowerCase().replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '').replace(/ +/g, '-');
+   //add id to heading
+   $heading.setAttribute('id', id);
 
-  //add id to heading
-  $heading.setAttribute('id', id);
+   //append parent class to heading
+   $heading.classList.add('anchor-heading');
 
-  //append parent class to heading
-  $heading.classList.add('anchor-heading');
+   //create anchor
+   $anchor = document.createElement('a');
+   $anchor.className = 'anchor-link';
+   $anchor.href = '#' + id;
+   $anchor.innerText = '#';
 
-  //create anchor
-  $anchor = document.createElement('a');
-  $anchor.className = 'anchor-link';
-  $anchor.href = '#' + id;
-  $anchor.innerText = '#';
-
-  //append anchor after heading text
-  $heading.appendChild($anchor);
-                        });
+   //append anchor after heading text
+   $heading.appendChild($anchor);
+ });}
