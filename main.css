@@ -128,6 +128,10 @@ li:not(#section-0) .content>.summary { /* Hides section descriptions */
     opacity: 0;
 }
 
+#changenumsections { /* Hides buttons for adding and deleting sections */
+	display: none
+}
+
 /* Anchor links on h2 and h3 headers */
 
 .anchor-heading:target {
