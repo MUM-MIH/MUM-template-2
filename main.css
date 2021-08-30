@@ -246,8 +246,8 @@ html{scroll-behavior:smooth}
 
 .vidembed {
 	margin-right: auto;
-	padding-right: 15px;
-	padding-left: 15px;
+    /*	padding-right: 15px;
+	padding-left: 15px; */
 }
 
 
