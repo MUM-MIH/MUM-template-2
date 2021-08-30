@@ -90,7 +90,7 @@ div.contentafterlink > div > div::before { /* Adds speech bubble tail to activit
    content: "";
   position: absolute;
   margin-left: 25px;
-  margin-top: -21px;
+  margin-top: -28px;
   border-width: 9px;
   border-style: solid;
   border-color: transparent transparent #deeefb transparent;
@@ -168,12 +168,6 @@ a[title="Edit summary"]{ /* Hides edit cog from menubar, disables editing menuba
 }
 
 html{scroll-behavior:smooth}
-
-/* Forums placeholders, headers */
-#forumhead p{
-	margin-left: 88px
-}
-
 
 /* Weekly placeholders, headers */
 
