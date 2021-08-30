@@ -138,7 +138,7 @@ color: white; /* changes the lesson title font color to white */
 	padding-bottom: 2rem;
 }
 
-.box.py-3.contents, .box.py-3.generalbox.book_content, .box.py-3.generalbox.center.clearfix { /*centers content in books, lessons and pages*/
+.box.py-3.contents, .box.py-3.generalbox.book_content, .box.py-3.generalbox.center.clearfix, .box.py-3.branchbuttoncontainer.horizontal { /*centers content in books, lessons and pages*/
 	padding-left:10%;
 	padding-right:10%;
 	max-width: 1400px;
