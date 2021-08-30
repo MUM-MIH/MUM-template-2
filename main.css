@@ -424,18 +424,6 @@ table {
 		max-width: 580px !important;
 	}
 	
-	div.circleiconw~p { /*moves all normal p text inside headers*/
-		margin-left: 16px;
-    	}
-	
-	div.circleiconw~ul, div.circleiconw~ol { /* moves all normal p text inside headers*/
-		margin-left: 16px;
-	}
-	
-    	#forumhead p { /* corrects normal p text alignment inside forum headers*/
-        	margin-left: 0px;
-    	}
-	
 	.policy-frame {
 		width: 100%;
 		height: 100%;
