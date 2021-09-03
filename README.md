@@ -45,9 +45,16 @@ anchor.js     | Creates anchor links on all H2, H3 and Heading Large text.
 artsbannerbackup.css, artbannerbackup.js | Controls and styles the menubar.
 gridicons.css | Brings in the icons used on the Overview page and determines their position on the grid.
 hiddenoverview.js | Hides the accordion elements from displaying across Moodle site (this is the default behaviour).
+icon_x | Grid icon actual images.
 main.css      | Does most of the work in determining how our site looks including colours, alignment and html elements. Called into moodle site via the menubar.
-
-
+BU_accordion | Backup html code that creates the accordion element in _Overview_.
+BU_additional-resources | Backup html code that creates the header in _Addtional Resources_.
+BU_assessment-1 | Backup html code that creates the assessment descriptions placeholders in _Assessments_.
+BU_assessment-table | Backup html code that creates the assessment overview table in _Assessments_.
+BU_design-resources | Backup html code that creates title and instructions box in _Design Resources_.
+BU_forums-head | Backup html code that creates the headers with description text in _Forums_ and other places.
+BU_hiddenblock | Backup html code that is inserted into the _Hidden Block_.
+BU_important-policy | Backup html code that creates the placeholder in _Important Policy_.
 
 
 
