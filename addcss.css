@@ -319,11 +319,13 @@ pre:not(.CodeMirror pre) {
 	margin-top: 1rem;
 }
 
-pre:hover {
+pre:not(.CodeMirror pre):hover {
 	background-color: #007EA8;
-	color: #FFFFFF;
+	color: #FFFFFF !important;
 }
 
-pre a {
+pre:not(.CodeMirror pre) a:hover {
 	text-decoration: none;
+    color: #FFFFFF;
+    
 }
