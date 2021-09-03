@@ -305,8 +305,10 @@ select#id_numsections{
 	display:none
 }
 
-pre:not(.CodeMirror pre) {   /* overrides pre- style so we can use it as a sub-header/label, except in HTML editor*/
-   	font-size: 1.2rem;
+
+/* overrides pre- style so we can use it as a sub-header/label, except in HTML editor*/
+pre:not(.CodeMirror pre) { 
+   	font-size: 1.1rem;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	background-color: #e6e6e6;
@@ -315,4 +317,13 @@ pre:not(.CodeMirror pre) {   /* overrides pre- style so we can use it as a sub-h
 	white-space: pre-wrap;
 	display: inline-block;
 	margin-top: 1rem;
+}
+
+pre:hover {
+	background-color: #007EA8;
+	color: #FFFFFF;
+}
+
+pre a {
+	text-decoration: none;
 }
