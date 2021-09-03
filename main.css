@@ -506,7 +506,9 @@ table {
 		min-height: 1800px;
 		border: none;
 	}
-		
+	div.contentafterlink > div > div::before {
+    		margin-top: -22px;
+	}
 }
 
 --></style>
