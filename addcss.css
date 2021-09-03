@@ -308,7 +308,7 @@ select#id_numsections{
 
 /* overrides pre- style so we can use it as a sub-header/label, except in HTML editor*/
 pre:not(.CodeMirror pre) { 
-   	font-size: 1.1rem;
+   	font-size: 1rem;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	background-color: #e6e6e6;
@@ -326,6 +326,6 @@ pre:not(.CodeMirror pre):hover {
 
 pre:not(.CodeMirror pre) a:hover {
 	text-decoration: none;
-    color: #FFFFFF;
+    	color: #FFFFFF;
     
 }
