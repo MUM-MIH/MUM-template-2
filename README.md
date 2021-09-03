@@ -40,6 +40,7 @@ All notable changes to this project will be documented in this file.
 File name     | Description
 ------------- | -------------
 anchor.js     | Creates anchor links on all H2, H3 and Heading Large text. 
+artsbannerbackup.css, artbannerbackup.js | Controls and styles the menubar.
 gridicons.css | Brings in the icons used on the Overview page and determines their position on the grid.
 main.css      | Does most of the work in determining how our site looks including colours, alignment and html elements. Called into moodle site via the menubar.
 addcss.css    | Brings in additional css via the Hidden Block. Styles things that will not appear on the same page as the menubar (Moodle Books, Lessons etc.); styles accordion in Overview.
