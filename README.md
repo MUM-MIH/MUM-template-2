@@ -7,11 +7,13 @@ All notable changes to this project will be documented in this file.
 ## Unreleased ##
 - Custom Key Contacts information based on School/Faculty/Campus
 
-
 ## 2021-08-27 ##
 ### Added ###
 - Centralised _Key Contacts_ and _Important Policy_ via javascript (addfeatures.js)
 - CSS to prevent users from add/deleting sections, changing section names, rearranging sections, and editing menubar.
+
+### Changed ###
+- Alignment to stop requiring on "move right" on labels. All elements align left automatically now.
 
 ### Removed ###
 - Embed live gdoc
