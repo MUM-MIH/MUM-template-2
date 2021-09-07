@@ -144,7 +144,7 @@ color: white; /* changes the lesson title font color to white */
 	max-width: 1400px;
 }
 
-.box.py-3.contents iframe[src*="panopto"], .box.py-3.generalbox.book_content iframe[src*="panopto"], .box.py-3.generalbox.center.clearfix iframe[src*="panopto"] { /* make videos in lessons, books and pages larger and more responsive */
+.box.py-3.contents div:not(.embed-responsive)>iframe[src*="panopto"], .box.py-3.generalbox.book_content div:not(.embed-responsive)>iframe[src*="panopto"], .box.py-3.generalbox.center.clearfix div:not(.embed-responsive)>iframe[src*="panopto"] { /* make videos in lessons, books and pages larger and more responsive */
    		 width: 70% !important;
          	height: 23vw;
   	}
