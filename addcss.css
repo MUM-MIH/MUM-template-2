@@ -147,7 +147,12 @@ color: white; /* changes the lesson title font color to white */
 .box.py-3.contents div:not(.embed-responsive)>iframe[src*="panopto"], .box.py-3.generalbox.book_content div:not(.embed-responsive)>iframe[src*="panopto"], .box.py-3.generalbox.center.clearfix div:not(.embed-responsive)>iframe[src*="panopto"] { /* make videos in lessons, books and pages larger and more responsive */
    		 width: 70% !important;
          	height: 23vw;
-  	}
+}
+
+.box.py-3.contents p>iframe[src*="panopto"], .box.py-3.generalbox.book_content p>iframe[src*="panopto"], .box.py-3.generalbox.center.clearfix p>iframe[src*="panopto"] {
+  		 width: 70% !important;
+         	height: 23vw;
+}
 
 #intro, #pageintro { /*styles activity descriptions in single activities*/
 	background-color: #ededed;
