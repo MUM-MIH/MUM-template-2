@@ -275,44 +275,6 @@ ul.gridicons li .icon_content {
 	padding-top: 62.25%;
 }
 
-/* Table (general) styles */
-thead {
-	background-color: #007EA8;
-}
-
-thead td,th:not(#taskbar) {
-	color: #FFFFFF;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 600;
-	font-size: 15px;
-	text-decoration: none;
-	text-align: left;
-	padding: 10px
-}
-
-thead td a { color: inherit; } 
-
-table td, th {
-	padding: 10px;
-	margin: 0px;
-	text-align: left;
-}
-
-tbody tr:nth-child(odd) {
-  	background-color: #eef1f2;
-}
-
-tbody tr:nth-child(even) {
-  	background-color: #ffffff;
-	border-top: solid 1px #dee2e6;
-	border-bottom: solid 1px #dee2e6;
-}
-
-table {
-	width: 99.9%;
-}
-
-
 /* Table (taskbar) styles */
 
 #taskbar {
@@ -359,11 +321,8 @@ table {
 
 /* Table (unit calendar) styles */
 
-.caldark thead{
+.caldark thead, .caldark th{
 	background-color: #343a40; /* determines color of header row */
-}
-
-.caldark th{
 	color: #ffffff;
 	font-weight: bold;
 }
