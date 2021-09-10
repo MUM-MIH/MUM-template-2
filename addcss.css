@@ -336,7 +336,7 @@ pre:not(.CodeMirror pre) a:hover {
 }
 
 /* Table (general) styles */
-thead, th:not(thead) {
+table:not(.table)>thead, table:not(.table) th:not(thead) {
 	background-color: #007EA8
 }
 
