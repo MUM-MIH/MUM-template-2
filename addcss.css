@@ -107,7 +107,7 @@ color: white; /* changes the lesson title font color to white */
 	padding-top: 2rem;
 }
 
-.card-monash div[role=main] a{
+.card-monash div[role=main]>h2>a {
 	color: #ffffff
 }
 
