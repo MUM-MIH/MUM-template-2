@@ -107,6 +107,10 @@ color: white; /* changes the lesson title font color to white */
 	padding-top: 2rem;
 }
 
+.card-monash div[role=main] a{
+	color: #ffffff
+}
+
 .activity-navigation {
 	display: none; /* hides activity navigation bar on bottom of lesson - delete if desired */
 }
