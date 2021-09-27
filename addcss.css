@@ -340,12 +340,9 @@ pre:not(.CodeMirror pre) a:hover {
 }
 
 /* Table (general) styles */
-table:not(.table):not(.caldark)>thead, table:not(.table):not(.caldark) th:not(thead) {
-	background-color: #007EA8
-}
-
-thead td,table:not(.table) th:not(#taskbar) {
-	color: #FFFFFF;
+table:not(.table):not(.caldark):not(#user-grades):not(#taskbar)>thead, table:not(.table):not(.caldark):not(#user-grades) th:not(thead) {
+	background-color: #007EA8;
+        color: #FFFFFF;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 600;
 	font-size: 15px;
@@ -354,9 +351,10 @@ thead td,table:not(.table) th:not(#taskbar) {
 	padding: 10px;
 }
 
+
 thead td a { color: inherit; } 
 
-table:not(.table) th>a {
+table:not(.table):not(.caldark):not(#user-grades):not(#taskbar)>thead a, table:not(.table):not(.caldark):not(#user-grades) th:not(thead) a{
 	color: white;
 	text-decoration: underline;
 }
