@@ -352,7 +352,7 @@ thead td,table:not(.table) th:not(#taskbar) {
 	text-decoration: none;
 	text-align: left;
 	padding: 10px;
-background-color: blue;}
+}
 
 thead td a { color: inherit; } 
 
