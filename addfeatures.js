@@ -11,7 +11,7 @@ window.addEventListener('load',function(){
   		$('.mceToolbarRow3').css('display', 'table');
 	});
 	
-	//make a variable of the section name
+	//make a variable of the breadcrumbs
 	var SchoolSpecific=$('li.breadcrumb-item').text();
 	//make a variable of the section name
 	var assessmentSectionName=$('h3.sectionname').text();
