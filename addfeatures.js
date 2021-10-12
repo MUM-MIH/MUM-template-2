@@ -15,7 +15,7 @@ window.addEventListener('load',function(){
 	var SchoolSpecific=$('li.breadcrumb-item').text();
 	//make a variable of the section name
 	var assessmentSectionName=$('h3.sectionname').text();
-	//check if we are on the key contacts section
+	//check if we are on the key contacts section and if that section is section18
 	if (assessmentSectionName.match(/Key Contacts/) != null && window.location.href.slice(-11) == "&section=18"){
 		//check if it is School of Science
 		if (SchoolSpecific.match(/(ANT|BIN|BIO|BTH|ENV|FST|HUP|IMM|MBS|PHY|SCI|STA)[0-9]|Education Excellence/)){
@@ -36,7 +36,7 @@ window.addEventListener('load',function(){
 	}
 	}
 		
-	//check if we are on the important policy section
+	//check if we are on the important policy section and if that section is section20
 	if (assessmentSectionName.match(/Important Policy/) != null && window.location.href.slice(-11) == "&section=20"){
 		//check if the assessment text already exists
 		if ($('.label:contains("Plagiarism")').length!=0){
