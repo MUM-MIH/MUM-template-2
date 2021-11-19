@@ -5,7 +5,10 @@ This is the second version of the MUM Moodle template. Created 18/08/2021. The f
 All notable changes to this project will be documented in this file.
 
 ## Unreleased ##
-- Custom Key Contacts information based on School/Faculty/Campus
+- Dark mode in beta currently only deployed in SCI1020 and AMU1017.
+
+## 2021-11-19 ##
+- Centralised _Key Contacts_ customised according to Schools. MUI _Key Contacts_ moved to MUI repo.
 
 ## 2021-08-27 ##
 ### Added ###
