@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Dark mode in beta currently only deployed in SCI1020 and AMU1017.
 
 ## 2021-11-19 ##
+### Changed ###
 - Centralised _Key Contacts_ customised according to Schools. MUI _Key Contacts_ moved to MUI repo.
 
 ## 2021-08-27 ##
