@@ -100,39 +100,6 @@ div.contentafterlink > div > div::before { /* Adds speech bubble tail to activit
 
 /* Styles to stop staff from changing things in template */
 
-a[title="Set or change image"]{ /* hides the change image button on grid icons */
-	display: none
-}
-
-.section_action_menu { /* Hides section edit button */
-	display: none
-}
-
-li:not(#section-0) .content>.summary { /* Hides section descriptions */
-	display:none
-}
- 
-.section-handle { /* Hides section crosshairs and prevents moving of sections */
-	display:none
-}
-
-.quickeditlink { /* Disables quick edit of section titles */
-	pointer-events: none;
-	cursor: default;
-}
-
-.jsenabled .visibleifjs { /* Hides quick edit icon */
-    display: inline;
-    opacity: 0;
-}
-
-#changenumsections { /* Hides buttons for adding and deleting sections */
-	display: none
-}
-
-a[title="Edit summary"]{ /* Hides edit cog from menubar, disables editing menubar */
-	display: none
-}
 
 /* Anchor links on h2 and h3 headers */
 
