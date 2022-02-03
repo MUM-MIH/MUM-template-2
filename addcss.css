@@ -96,9 +96,9 @@ color: white; /* changes the lesson title font color to white */
 .card-monash div[role=main]>h3{
 	margin-left: 10px;
 	color: #016080;
-	font-family: Helvetica Neue !important;
+	font-family: Nunito !important;
 	font-size: 3rem;
-	font-weight: 400;
+	font-weight: 800;
 	line-height: 1.2;
 	margin-bottom: 2rem;
 	border-bottom: solid 1px #dddddd;
@@ -133,9 +133,9 @@ color: white; /* changes the lesson title font color to white */
 
 .book_content h3:first-child { /*style page titles in Books*/
 	color: #016080;
-	font-family: Helvetica Neue !important;
+	font-family: Nunito !important;
 	font-size: 3rem;
-	font-weight: 400;
+	font-weight: 800;
 	line-height: 1.2;
 	margin-bottom: 2rem;
 	border-bottom: solid 1px #dddddd;
@@ -318,8 +318,8 @@ select#id_numsections{
 /* overrides pre- style so we can use it as a sub-header/label, except in HTML editor*/
 pre:not(.CodeMirror pre) { 
    	font-size: 1rem;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 400;
+	font-family: "Nunito";
+	font-weight: 700;
 	background-color: #e6e6e6;
 	padding: 8px 15px;
 	box-shadow: 0px 1px 3px 0px rgba(107, 107, 107, 0.5);
@@ -343,7 +343,7 @@ pre:not(.CodeMirror pre) a:hover {
 table:not(.table):not(.caldark):not(#user-grades):not(#taskbar)>thead, table:not(.table):not(.caldark):not(#user-grades) th:not(thead) {
 	background-color: #007EA8;
         color: #FFFFFF;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Nunito";
 	font-weight: 600;
 	font-size: 15px;
 	text-decoration: none;
