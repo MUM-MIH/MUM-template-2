@@ -379,3 +379,14 @@ table {
 	width: 99.9%;
 }
 
+#enews tbody tr:nth-child(odd) {
+  	background-color: inherit;
+}
+
+#enews tbody tr:nth-child(even) {
+  	background-color: inherit;
+	border-top: inherit;
+	border-bottom: inherit;
+}
+
+
