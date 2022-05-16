@@ -263,6 +263,10 @@ ul.gridicons li .icon_content {
 	padding: 18px 5px !important;
 }
 
+.format-grid .course-content ul.gridicons li .image_holder>img { /* Hides all imported grid icons from displaying */
+	display: none;
+}
+
 /* Responsive embedded h5p non-video */
 
 .embed-responsive-5by3::before{
