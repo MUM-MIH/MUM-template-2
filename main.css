@@ -298,10 +298,12 @@ ul.gridicons li .icon_content {
 #taskbar td a { color: inherit; } /* disables the automatic blue colour on links in the taskbar */
 
 #taskbar td,th {
-	padding: 0px 8px;
+	padding: 5px 8px;
 	margin: 0px 8px;
 	text-align: center;
 	font-weight: 500;
+	color: #4a4a4a;
+	font-size: 15px;
 }
 
 #taskbar tbody tr:nth-child(odd) {
