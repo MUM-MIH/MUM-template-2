@@ -397,6 +397,6 @@ table {
 }
 
 .newaccordlec, .newaccordlo {
-	whitespace: pre-wrap;
+	white-space: pre-wrap;
 }
 
