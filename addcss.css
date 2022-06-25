@@ -396,3 +396,7 @@ table {
     	margin: 5px 0px 15px;
 }
 
+.newaccordlec, .newaccordsyn {
+	whitespace: pre-wrap;
+}
+
