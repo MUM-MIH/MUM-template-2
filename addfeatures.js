@@ -91,7 +91,7 @@ window.addEventListener("load", function () {
   //check if taskbar exists
   var taskbar = document.getElementById("taskbar");
   //check if header exists
-  var taskhead = document.querySelectorAll(".circleiconw");
+  var taskhead = document.querySelectorAll(".circleiconw")[0];
 
   //check if edit settings page and if hidden overview element or taskbar exists
   if (SchoolSpecific.match(/Edit settings/)) {
