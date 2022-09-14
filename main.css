@@ -359,6 +359,11 @@ ul.gridicons li .icon_content {
    		 width: 100% !important;
          	height: 35vw;
   	}
+	
+	.vidtemp>iframe[src*="panopto"] {
+		width: 100% !important;
+	}
+	
 	.section li.activity {
 	/*	padding-left: 8em; */
 		margin-top: 1em;
@@ -412,6 +417,10 @@ ul.gridicons li .icon_content {
 		width: 100%;
 		min-height: 1100px;
 		border: none;
+	}
+	div.vidtemp>div>div>iframe[src*="panopto"] {
+		width: calc(100% - 15px) !important;
+		height: 18vw;
 	}
 }
 
