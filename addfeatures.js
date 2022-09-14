@@ -93,7 +93,7 @@ window.addEventListener("load", function () {
   //check if header exists
   var taskhead = document.querySelectorAll(".circleiconw")[0];
   //check if atto editor exists
-  var attoeditor = document.getElementById("#id_generalhdr");
+  var attoeditor = document.getElementById("id_generalhdr");
 
   //check if edit settings page and if hidden overview element or taskbar exists
   if (SchoolSpecific.match(/Edit settings|Adding a new Label/)) {
