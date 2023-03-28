@@ -61,13 +61,14 @@ window.addEventListener("load", function () {
       console.log("not Key Contacts Section or is section 0");
     }
   }
+  
   //add essfs advertisement
-   if (SchoolSpecific.match(/Important Policy/)) {
-        $("#region-main").before(‘<a href="https://essfs.ureview.org/"><img src="https://mum-mih.github.io/MUM-template-2/ESSFS_moodle.png" alt=“Take the Early Semester Student Feedback Survey and stand a chance to win prizes” style="width:1000px;margin-bottom:15px"></a>’);
-    } else {
-        console.log(“essfs banner fail to load”);
-    }
-
+if (SchoolSpecific.match(/Important Policy/)) {
+    $("#region-main").before('<a href="https://essfs.ureview.org/"><img src="https://mum-mih.github.io/MUM-template-2/ESSFS_moodle.png" alt="Take the Early Semester Student Feedback Survey and stand a chance to win prizes" style="width:1000px;margin-bottom:15px"></a>');
+} else {
+    console.log("essfs banner fail to load");
+}
+  
   //check if we are on the important policy section and if that section is section20
   if (
     assessmentSectionName.match(/Important Policy/) != null &&
