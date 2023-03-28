@@ -64,7 +64,7 @@ window.addEventListener("load", function () {
   
   //add essfs advertisement
 if (SchoolSpecific.match(/Important Policy/)) {
-    $("#region-main").before('<a href="https://essfs.ureview.org/"><img src="https://mum-mih.github.io/MUM-template-2/ESSFS_moodle.png" alt="Take the Early Semester Student Feedback Survey and stand a chance to win prizes" style="width:1000px;margin-bottom:15px"></a>');
+    $("#region-main").before('<a href="https://essfs.ureview.org/"><img src="https://mum-mih.github.io/MUM-template-2/ESSFS_moodle.png" alt="Take the Early Semester Student Feedback Survey and stand a chance to win prizes" style="width:1750px;margin-bottom:15px"></a>');
 } else {
     console.log("essfs banner fail to load");
 }
